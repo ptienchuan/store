@@ -200,7 +200,7 @@
 	border-radius: 4px;
 }
 .product-form form > .row {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 .form-add-category {
 	text-align: center;
@@ -233,12 +233,23 @@
 }
 .wrap-image-color-product {
 	text-align: center;
+	position: relative;
 }
 .wrap-image-color-product img {
 	cursor: pointer;
 }
-.wrap-image-color-product img:hover {
-	opacity: 0.5;
+.wrap-image-color-product label:hover button{
+	display: inline;
+}
+.wrap-image-color-product input {
+	display:none;
+}
+.wrap-image-color-product label button{
+	position: absolute;
+	left: 0px;
+	display: none;
+	width:100%;
+	border-radius: 2px;
 }
 .form-add-color {
 	max-width: 241px;
@@ -266,7 +277,140 @@
 .form-add-color:hover i {
 	color: #B2B2B2;
 }
+.add:hover, .add:active, .add:visited, .add:link{
+	color:black;
+	text-decoration: none;
+}
+.add label{
+	cursor: pointer;
+}
+.add i {
+	padding-right: 10px;
+	font-size: 18px;
+	color:#a94442;
+}
+.add .fa-caret-down {
+	display: none;
+}
+#wrap-add-property .form-control {
+	width:50%;
+}
+#wrap-add-property .form-group:first-child {
+	text-align: center;
+}
+#wrap-add-property a {
+	padding:5px 0px;
+	display:block;
+	border: 2px dashed #D7D7D7;
+	background-color: #F5F5F5;
+}
+#wrap-add-property a i {
+	color: #D7D7D7;
+}
+#wrap-add-property a:hover {
+	border-color:  #B2B2B2;
+}
+#wrap-add-property a:hover i {
+	color: #B2B2B2;
+}
+#property-modal .modal-body .checkbox label {
+	display: block;
+	font-size: 17px;
+	padding-top: 3px;
+	max-height: 320px;
+	overflow-y: auto;
+}
+#property-modal .modal-body{
+	max-height: 320px;
+	overflow-y: auto;
+}
+#wrap-add-promotion .form-group:first-child {
+	text-align: center;
+}
+#wrap-add-promotion a {
+	padding:5px 0px;
+	display:block;
+	border: 2px dashed #D7D7D7;
+	background-color: #F5F5F5;
+}
+#wrap-add-promotion a i {
+	color: #D7D7D7;
+}
+#wrap-add-promotion a:hover {
+	border-color:  #B2B2B2;
+}
+#wrap-add-promotion a:hover i {
+	color: #B2B2B2;
+}
+#promotion-modal .modal-body .checkbox label {
+	display: block;
+	font-size: 17px;
+	padding-top: 3px;
+	max-height: 320px;
+	overflow-y: auto;
+}
+#promotion-modal .modal-body{
+	max-height: 320px;
+	overflow-y: auto;
+}
+#product-related-modal .modal-body .checkbox label {
+	display: block;
+	font-size: 17px;
+	padding-top: 3px;
+	max-height: 320px;
+	overflow-y: auto;
+}
+#product-related-modal .modal-body{
+	max-height: 320px;
+	overflow-y: auto;
+}
+.form-add-product-related {
+	max-width: 241px;
+	max-height: 241px;
+	margin:auto;
+	position: relative;
+	cursor: pointer;
+}
+.form-add-product-related img {
+	margin-top:5px;
+	border: 2px dashed #D7D7D7;
+}
+.form-add-product-related i {
+	font-size: 40px;
+	position: absolute;
+	top:43%;
+	left: 43%;
+}
+.form-add-product-related i {
+	color: #D7D7D7;
+}
+.form-add-product-related:hover img{
+	border-color:  #B2B2B2;
+}
+.form-add-product-related:hover i {
+	color: #B2B2B2;
+}
+.wrap-thumbnail-related {
+	position: relative;
+}
+.wrap-thumbnail-related:hover button {
+	display: inline;
+}
+.wrap-thumbnail-related button {
+	position: absolute;
+	width:100%;
+	display: none;
+}
 /*end form*/
+
+/*table search*/
+.wrap-table table{
+	border:2px solid #dff0d8;
+}
+.wrap-table thead{
+	background-color: #dff0d8;
+}
+/*end table search*/
 
 @media (min-width: 768px)
 {
