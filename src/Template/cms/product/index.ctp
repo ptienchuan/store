@@ -1,8 +1,4 @@
 <div class="container-fluid">
-	<div class="alert alert-default">
-		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-		<strong>Hướng dẫn:</strong> Chọn tác vụ bạn muốn...
-	</div>
 	<div class="row">
 		<div class="col-md-4">
 			<div class="panel panel-info">
@@ -59,7 +55,7 @@
 		<div class="col-md-4">
 			<div class="panel panel-info">
 				<div class="panel-heading">
-					<a class="panel-title" href="#">Thống kê về sản phẩm</a>
+					<?= $this->Html->link('Thống kê về sản phẩm',['controller' => 'Product', 'action' => 'statistic', '_full' => true],['class' => 'panel-title']); ?>
 				</div>
 				<div class="panel-body">
 					Thống kê lượt mua, số lượng đã bán, doanh thu theo sản phẩm

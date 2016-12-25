@@ -411,52 +411,55 @@
 	background-color: #dff0d8;
 }
 .wrap-pagination {
-	text-align: center;
+	text-align: right;
 }
-.wrap-tabs-content {
+.wrap-pagination .pagination{
+	margin-top: 0px;
+}
+.wrap-search-tabs-content {
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid #DDD;
 }
-.wrap-tabs-content .tab-content{
+.wrap-search-tabs-content .tab-content{
 	border-left: 1px solid #DDD;
 	border-bottom: 1px solid #DDD;
 	border-right: 1px solid #DDD;
 }
-.wrap-tabs-content .tab-pane{
+.wrap-search-tabs-content .tab-pane{
 	padding:25px;
 }
-.wrap-tabs-content #name form .row div{
+.wrap-search-tabs-content #name form .row div{
 	padding: 5px 5px;
 }
-.wrap-tabs-content #promotion form .row div{
+.wrap-search-tabs-content #promotion form .row div{
 	padding: 5px 5px;
 }
-.wrap-tabs-content #category form .row .input-group{
+.wrap-search-tabs-content #category form .row .input-group{
 	width:100%;
 }
-.wrap-tabs-content #property form .row:first-child .form-group {
+.wrap-search-tabs-content #property form .row:first-child .form-group {
 	text-align: center;
 }
-.wrap-tabs-content #property form a {
+.wrap-search-tabs-content #property form a {
 	padding:5px 0px;
 	display:block;
 	border: 2px dashed #D7D7D7;
 	background-color: #F5F5F5;
 }
-.wrap-tabs-content #property form a i {
+.wrap-search-tabs-content #property form a i {
 	color: #D7D7D7;
 }
-.wrap-tabs-content #property form a:hover {
+.wrap-search-tabs-content #property form a:hover {
 	border-color:  #B2B2B2;
 }
-.wrap-tabs-content #property form a:hover i {
+.wrap-search-tabs-content #property form a:hover i {
 	color: #B2B2B2;
 }
-.wrap-tabs-content #property form .input-group .form-control{
+.wrap-search-tabs-content #property form .input-group .form-control{
 	width:50%;
 }
-.wrap-tabs-content #price form .radio label{
+.wrap-search-tabs-content #price form .radio label{
 	margin-right: 30px;
 }
 /*end table search*/
@@ -470,6 +473,74 @@
 	margin-bottom: 20px
 }
 /*END import product file*/
+
+/*statistic product*/
+.wrap-statistic-tabs .tab-content {
+	border-left:1px solid #DDD;
+	border-bottom:1px solid #DDD;
+	border-right:1px solid #DDD;
+	padding:25px;
+}
+.wrap-statistic-tabs .tab-content .tab-pane form{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom:1px solid #DDD;
+}
+.wrap-statistic-tabs .tab-content #general .table{
+	border:2px solid #d9edf7;
+}
+.wrap-statistic-tabs .tab-content #general .table thead{
+	background-color: #d9edf7;
+}
+.wrap-statistic-tabs .tab-content #product form .col-md-1 label{
+	width:100%;
+}
+.wrap-statistic-tabs .tab-content #product .media img{
+	width: auto;
+	max-height: 250px;
+	border:1px solid #d9edf7;
+}
+.wrap-statistic-tabs .tab-content #product .media .media-body h4{
+	padding-bottom: 40px;
+}
+/*END statistic product*/
+
+/*search category*/
+.wrap-search-category form {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #DDD;
+}
+.wrap-search-category .table {
+	border: 2px solid #d6e9c6;
+}
+.wrap-search-category .table thead{
+	background-color: #dff0d8;
+}
+/*END search category*/
+
+/*statistic category*/
+.wrap-category-statistic .tab-content {
+	border-bottom: 2px solid #DDD;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+}
+.wrap-category-statistic .tab-content .tab-pane {
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	padding:25px;
+}
+.wrap-category-statistic .tab-content #general form .form-group {
+	width:100%;
+}
+.wrap-category-statistic .tab-content #general form input {
+	width:80%;
+}
+.wrap-category-statistic .tab-content #general form .form-group label {
+	width:70px;
+}
+/*END statistic category*/
 
 @media (min-width: 768px)
 {

@@ -18,5 +18,9 @@ class ProductController extends CmsController
 	public function inport(){
 		
 	}
+
+	public function statistic(){
+		
+	}
 }
 ?>

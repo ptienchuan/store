@@ -1,13 +1,9 @@
 <div class="container-fluid">
-	<div class="alert alert-default">
-		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-		<strong>Hướng dẫn:</strong> Chọn tác vụ bạn muốn ...
-	</div>
 	<div class="row">
 		<div class="col-md-4">
 			<div class="panel panel-info">
 				<div class="panel-heading">
-					<a href="#" class="panel-title">Thêm danh mục</a>
+					<?= $this->Html->link('Thêm danh mục',['controller' => 'Category', 'action' => 'form', '_full' => true],['class' => 'panel-title']); ?>
 				</div>
 				<div class="panel-body">
 					Thêm một danh mục sản phẩm mới
@@ -39,7 +35,7 @@
 		<div class="col-md-4">
 			<div class="panel panel-success">
 				<div class="panel-heading">
-					<a href="#" class="panel-title">Danh sách danh mục</a>
+					<?= $this->Html->link('Danh sách danh mục',['controller' => 'Category', 'action' => 'search', '_full' => true],['class' => 'panel-title']); ?>
 				</div>
 				<div class="panel-body">
 					Tìm kiếm danh mục với bộ lọc
@@ -59,7 +55,7 @@
 		<div class="col-md-4">
 			<div class="panel panel-info">
 				<div class="panel-heading">
-					<a href="#" class="panel-title">Thống kê về danh mục</a>
+					<?= $this->Html->link('Thống kê về danh mục',['controller' => 'Category', 'action' => 'statistic', '_full' => true],['class' => 'panel-title']); ?>
 				</div>
 				<div class="panel-body">
 					Thống kê số lượng sản phẩm, doanh thu theo danh mục

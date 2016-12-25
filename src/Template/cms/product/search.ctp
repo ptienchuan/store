@@ -5,7 +5,7 @@
 		</div>
 		<div class="panel-body">
 			<!-- Search form -->
-			<div class="wrap-tabs">
+			<div class="wrap-search-tabs">
 				<div role="tabpanel">
 					<!-- Nav tabs -->
 					<ul class="nav nav-tabs" role="tablist">
@@ -31,7 +31,7 @@
 					</ul>
 				
 					<!-- Tab panes -->
-					<div class="wrap-tabs-content">
+					<div class="wrap-search-tabs-content">
 						<div class="tab-content">
 							<!-- Name, ID -->
 							<div role="tabpanel" class="tab-pane active" id="name">
@@ -217,7 +217,28 @@
 				</div>
 			</div>
 			<!-- END Search form -->
-
+				
+			<div class="row">
+				<div class="col-md-2">
+					<?= $this->Html->link('Tạo mới sản phẩm',['controller' => 'Product', 'action' => 'form', '_full' => true],['class' => 'btn btn-success','target' => '_blank']); ?>
+				</div>
+				<div class="col-md-10">
+					<div class="wrap-pagination">
+						<span>
+							<ul class="pagination">
+								<li><a href="#">&laquo;</a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#">&raquo;</a></li>
+							</ul>
+						</span>
+					</div>
+				</div>
+			</div>				
+			<!-- END pagination -->
 			<!-- Table list -->
 			<div class="wrap-table">
 				<div class="table-responsive">
