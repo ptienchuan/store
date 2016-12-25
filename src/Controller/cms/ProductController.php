@@ -10,5 +10,13 @@ class ProductController extends CmsController
 	public function form(){
 		
 	}
+
+	public function search(){
+		
+	}
+
+	public function inport(){
+		
+	}
 }
 ?>

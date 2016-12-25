@@ -39,7 +39,7 @@
 		<div class="col-md-4">
 			<div class="panel panel-success">
 				<div class="panel-heading">
-					<a class="panel-title" href="#">Danh sách sản phẩm</a>
+					<?= $this->Html->link('Danh sách sản phẩm',['controller' => 'Product', 'action' => 'search', '_full' => true],['class' => 'panel-title']); ?>
 				</div>
 				<div class="panel-body">
 					Tìm kiếm, theo dõi, xem thông tin sản phẩm, hỗ trợ tìm kiếm bằng bộ lọc
@@ -71,7 +71,7 @@
 		<div class="col-md-4">
 			<div class="panel panel-info">
 				<div class="panel-heading">
-					<a href="#" class="panel-title">Nhập sản phẩm từ file</a>
+					<?= $this->Html->link('Nhập sản phẩm từ file',['controller' => 'Product', 'action' => 'inport', '_full' => true],['class' => 'panel-title']); ?>
 				</div>
 				<div class="panel-body">
 					Cho phép nhập nhiều sản phẩm từ file excel, csv
