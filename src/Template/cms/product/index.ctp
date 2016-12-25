@@ -71,7 +71,7 @@
 		<div class="col-md-4">
 			<div class="panel panel-info">
 				<div class="panel-heading">
-					<a href="#" class="panel-title">Nhập sản phẩm từ file</a>
+					<?= $this->Html->link('Nhập sản phẩm từ file',['controller' => 'Product', 'action' => 'inport', '_full' => true],['class' => 'panel-title']); ?>
 				</div>
 				<div class="panel-body">
 					Cho phép nhập nhiều sản phẩm từ file excel, csv

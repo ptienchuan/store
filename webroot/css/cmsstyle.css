@@ -410,7 +410,66 @@
 .wrap-table thead{
 	background-color: #dff0d8;
 }
+.wrap-pagination {
+	text-align: center;
+}
+.wrap-tabs-content {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #DDD;
+}
+.wrap-tabs-content .tab-content{
+	border-left: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+}
+.wrap-tabs-content .tab-pane{
+	padding:25px;
+}
+.wrap-tabs-content #name form .row div{
+	padding: 5px 5px;
+}
+.wrap-tabs-content #promotion form .row div{
+	padding: 5px 5px;
+}
+.wrap-tabs-content #category form .row .input-group{
+	width:100%;
+}
+.wrap-tabs-content #property form .row:first-child .form-group {
+	text-align: center;
+}
+.wrap-tabs-content #property form a {
+	padding:5px 0px;
+	display:block;
+	border: 2px dashed #D7D7D7;
+	background-color: #F5F5F5;
+}
+.wrap-tabs-content #property form a i {
+	color: #D7D7D7;
+}
+.wrap-tabs-content #property form a:hover {
+	border-color:  #B2B2B2;
+}
+.wrap-tabs-content #property form a:hover i {
+	color: #B2B2B2;
+}
+.wrap-tabs-content #property form .input-group .form-control{
+	width:50%;
+}
+.wrap-tabs-content #price form .radio label{
+	margin-right: 30px;
+}
 /*end table search*/
+
+/*import product file*/
+.wrap-import input[type="file"] {
+	display: none;
+}
+.wrap-import .input-group {
+	width: 100%;
+	margin-bottom: 20px
+}
+/*END import product file*/
 
 @media (min-width: 768px)
 {
